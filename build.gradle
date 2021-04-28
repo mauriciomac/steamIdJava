@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id "org.gretty" version "3.0.4"
+}
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.expressme', name: 'JOpenId', version: '1.08'
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+    implementation group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.0.RC3'
+    implementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.12.RC0'
+}
