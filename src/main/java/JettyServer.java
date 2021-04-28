@@ -16,12 +16,8 @@ public class JettyServer {
 
         ServletContextHandler context = new ServletContextHandler();
 
-//        context.setContextPath("/hello");
-//        context.addServlet(HelloServlet.class, "/");
-//        context.setSessionHandler(new org.eclipse.jetty.server.session.SessionHandler());
-
         context.setContextPath("/LoginServlet");
-        context.addServlet(LoginServlet.class, "/");
+        context.addServlet(LoginSteamServlet.class, "/");
         context.setSessionHandler(new org.eclipse.jetty.server.session.SessionHandler());
 
         HandlerCollection handlers = new HandlerCollection();

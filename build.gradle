@@ -14,4 +14,5 @@ dependencies {
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
     implementation group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.0.RC3'
     implementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.12.RC0'
+    implementation group: 'org.openid4java', name: 'openid4java', version: '1.0.0'
 }
