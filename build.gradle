@@ -10,7 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.expressme', name: 'JOpenId', version: '1.08'
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
     implementation group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.0.RC3'
     implementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.12.RC0'
